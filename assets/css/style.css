@@ -62,6 +62,7 @@ a:hover {
     color: #333333;
     text-decoration: none;
 }
+.btn:focus{ outline:none !important;}
 
 /* Transition elsements
 -------------------------------------------------------- */
@@ -2466,8 +2467,8 @@ hr {
   border-radius: 0;
 }
 .btn-primary {
-  color: #4fbfa8;
-  background-color: #ffffff;
+ 
+  background-color: #4fbfa8;;
   border-color: #4fbfa8;
 }
 .btn-primary:hover,
