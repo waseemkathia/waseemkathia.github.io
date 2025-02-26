@@ -1,52 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/fav.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    
-    <!-- Basic Meta Tags -->
-    <meta name="description" content="Muhammad Waseem Sabir - AI Researcher specialized in Deep Learning and Computer Vision." />
-    <meta name="keywords" content="AI Researcher, Artificial Intelligence, Machine Learning, Muhammad Waseem Sabir, deep learning, data science, computer vision, biomedical image analysis, fibrosis, Fibro, FibroVit" />
-    <meta name="author" content="Muhammad Waseem Sabir" />
-    
-    <!-- Open Graph Meta Tags for Social Sharing -->
-    <meta property="og:title" content="Muhammad Waseem Sabir - AI Researcher" />
-    <meta property="og:description" content="Muhammad Waseem Sabir - Muhammad Waseem Sabir - AI Researcher specialized in Deep Learning and Computer Vision." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://waseemkathia.github.io/" /> <!-- Replace with your actual URL -->
-    <meta property="og:image" content="%PUBLIC_URL%/fav.png" /> <!-- Add an optimized image for social sharing -->
-    <meta property="og:image:alt" content="Muhammad Waseem Sabir - AI Researcher" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:site_name" content="Muhammad Waseem Sabir" />
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Muhammad Waseem Sabir - AI Researcher" />
-    <meta name="twitter:description" content="Muhammad Waseem Sabir - Muhammad Waseem Sabir - AI Researcher specialized in Deep Learning and Computer Vision." />
-    <meta name="twitter:image" content="%PUBLIC_URL%/fav.png" /> <!-- Same image as OG or a different one -->
-    <meta name="twitter:image:alt" content="Muhammad Waseem Sabir - AI Researcher" />
-    <meta name="twitter:site" content="@YourTwitterHandle" /> <!-- Replace with your Twitter handle -->
-    <meta name="twitter:creator" content="@YourTwitterHandle" /> <!-- Replace with your Twitter handle -->
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="robots" content="index, follow" />
-    <meta name="revisit-after" content="7 days" />
-    
-    <link rel="apple-touch-icon" href="favicon.ico" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    
-    <title>Muhammad Waseem Sabir - AI Researcher</title>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/fav.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Basic Meta Tags -->
+  <meta name="description"
+    content="Muhammad Waseem Sabir - AI Researcher specializing in Deep Learning, Computer Vision, and Biomedical Image Analysis. Expert in fibrosis detection and analysis using advanced AI techniques." />
+  <meta name="keywords"
+    content="AI Researcher, Artificial Intelligence, Machine Learning, Muhammad Waseem Sabir, deep learning, data science, computer vision, biomedical image analysis, fibrosis, Fibro, FibroVit" />
+  <meta name="author" content="Muhammad Waseem Sabir" />
+
+  <!-- Primary Social Media Image -->
+  <meta property="og:image" content="https://waseemkathia.github.io/profile.jpg" />
+  <meta property="og:image:secure_url" content="https://waseemkathia.github.io/profile.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Muhammad Waseem Sabir - AI Researcher and Deep Learning Expert" />
+
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="Muhammad Waseem Sabir | AI Researcher & Deep Learning Expert" />
+  <meta property="og:description"
+    content="AI Researcher specializing in Deep Learning, Computer Vision, and Biomedical Image Analysis. Expert in fibrosis detection and analysis using advanced AI techniques." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://waseemkathia.github.io/" />
+  <meta property="og:site_name" content="Muhammad Waseem Sabir Portfolio" />
+  <meta property="profile:first_name" content="Muhammad Waseem" />
+  <meta property="profile:last_name" content="Sabir" />
+  <meta property="profile:username" content="waseemkathia" />
+  <meta property="profile:gender" content="male" />
+
+  <!-- Mobile Specific -->
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Muhammad Waseem Sabir | AI Researcher & Deep Learning Expert" />
+  <meta name="twitter:description"
+    content="AI Researcher specializing in Deep Learning, Computer Vision, and Biomedical Image Analysis. Expert in fibrosis detection and analysis using advanced AI techniques." />
+  <meta name="twitter:image" content="https://waseemkathia.github.io/profile.jpg" />
+  <meta name="twitter:image:alt" content="Muhammad Waseem Sabir - AI Researcher and Deep Learning Expert" />
+  <meta name="twitter:site" content="@waseemkathia" />
+  <meta name="twitter:creator" content="@waseemkathia" />
+  <meta name="twitter:domain" content="waseemkathia.github.io" />
+
+  <!-- Additional SEO Meta Tags -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="revisit-after" content="7 days" />
+  <link rel="canonical" href="https://waseemkathia.github.io/" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Muhammad Waseem Sabir",
+      "jobTitle": "AI Researcher",
+      "description": "AI Researcher specialized in Deep Learning and Computer Vision",
+      "url": "https://waseemkathia.github.io/",
+      "sameAs": [
+        "https://linkedin.com/in/YourLinkedIn",
+        "https://github.com/waseemkathia",
+        "https://twitter.com/YourTwitterHandle"
+      ],
+      "knowsAbout": ["Artificial Intelligence", "Deep Learning", "Computer Vision", "Machine Learning", "Biomedical Image Analysis", "Fibrosis"]
+    }
+    </script>
+
+  <link rel="apple-touch-icon" href="favicon.ico" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <title>Muhammad Waseem Sabir - AI Researcher</title>
 </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -56,11 +95,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="script.js"></script>
-    <!-- <script type="text/javascript">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <!-- <script type="text/javascript">
       var submitted = false;
     </script>
     <script type="text/javascript">
@@ -71,5 +110,6 @@
         $("#gform").prepend("Your submission has been processed...");
       });
     </script> -->
-  </body>
+</body>
+
 </html>
