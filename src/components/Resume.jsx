@@ -13,39 +13,47 @@ const Resume = () => {
             <ion-icon name="book-outline"></ion-icon>
           </div>
 
-          <h3 class="h3">Academic Experience</h3>
+          <h3 class="h3">Experience</h3>
         </div>
 
         <ol class="timeline-list">
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Lead Researcher, Department of Deep Learning & Computer Vision</h4>
+            <h4 class="h4 timeline-item-title">Data Scientist</h4>
 
-            <span>2023 — Present </span>
+            <span>2024 — Present </span>
 
-            <p class="timeline-text">Advanced Machine Intelligence Research Lab, Bangladesh.</p>
+            <p class="timeline-text">PetaStorm Inc, Pakistan.</p>
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Lecturer, Department of Computer Science and Engineering</h4>
+            <h4 class="h4 timeline-item-title">Career Break</h4>
 
-            <span>2021 — Present</span>
+            <span>2022 — 2024</span>
 
-            <p class="timeline-text">Bangladesh University of Business & Technology, Bangladesh (On study leave).</p>
+            <p class="timeline-text">Took a career break to earn a Master’s in Computer Science, specializing in Data Science.</p>
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Research Assistant, Department of Information Technology</h4>
-
-            <span>2022 — 2023</span>
-
-            <p class="timeline-text">King Abdulaziz University (KAU), Jeddah, Saudi Arabia.</p>
-          </li>
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Research Assistant, Reve Systems</h4>
+            <h4 class="h4 timeline-item-title">Motion Designer</h4>
 
             <span>2021 — 2022</span>
 
-            <p class="timeline-text">Government Project in collaboration with Bangladesh University of Business and Technology and Reve Systems, Bangladesh.</p>
+            <p class="timeline-text">Educative Inc.</p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Motion Graphic Designer</h4>
+
+            <span>2016 — 2021</span>
+
+            <p class="timeline-text">ExamBites.</p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Graphics Designer</h4>
+
+            <span>2015 — 2016</span>
+
+            <p class="timeline-text">Haddocksoft</p>
           </li>
         </ol>
       </section>
@@ -57,7 +65,7 @@ const Resume = () => {
           <li class="skills-item">
             <div class="title-wrapper">
               <h5 class="h5">Research Interest</h5>
-              <data value="80">Machine learning, Deep learning, Computer vision, IoT, Robotics.</data>
+              <data value="80">Machine learning, Deep learning, Computer vision, Biomedical Image Analysis.</data>
             </div>
 
             <div class="skill-progress-bg">
@@ -73,7 +81,7 @@ const Resume = () => {
           <li class="skills-item">
             <div class="title-wrapper">
               <h5 class="h5">Coding</h5>
-              <data value="70">Python, Java, C/C++</data>
+              <data value="70">Python, C++</data>
             </div>
 
             <div class="skill-progress-bg">
@@ -89,7 +97,7 @@ const Resume = () => {
           <li class="skills-item">
             <div class="title-wrapper">
               <h5 class="h5">ML-DL Tools</h5>
-              <data value="90">Keras, TensorFlow, Pandas, NumPy, Matplotlib, PyTorch ...</data>
+              <data value="90">Keras, TensorFlow, Pandas, NumPy, Matplotlib, PyTorch, MatLab ...</data>
             </div>
 
             <div class="skill-progress-bg">
@@ -104,8 +112,8 @@ const Resume = () => {
 
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Robotics Tools</h5>
-              <data value="50">ROS, Val3 programming, MatLab, Gazebo, OMPL ...</data>
+              <h5 class="h5">Datascience Tools</h5>
+              <data value="50">SQL, Tableau, Excel, Hugging Face ... </data>
             </div>
 
             <div class="skill-progress-bg">
@@ -120,7 +128,7 @@ const Resume = () => {
           <li class="skills-item">
             <div class="title-wrapper">
               <h5 class="h5">Databases</h5>
-              <data value="50">Mysql, sqlite, Oracle ...</data>
+              <data value="50">Mysql, sqlite, BigQuery ...</data>
             </div>
 
             <div class="skill-progress-bg">
@@ -151,7 +159,7 @@ const Resume = () => {
         </ul>
       </section>
       <section class="timeline" style={{ marginTop: "50px" }}>
-        <div class="title-wrapper">
+        {/* <div class="title-wrapper">
           <div class="icon-box">
             <ion-icon name="book-outline"></ion-icon>
           </div>
@@ -183,7 +191,7 @@ const Resume = () => {
 
             <p class="timeline-text">AI-based android project for identifying lunar dates developed using Java, Python, and TensorFlowLite</p>
           </li>
-        </ol>
+        </ol> */}
       </section>
 
       <section class="timeline">
@@ -197,42 +205,42 @@ const Resume = () => {
 
         <ol class="timeline-list">
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">International Conference on Big Data, IoT, and Machine Learning</h4>
+            <h4 class="h4 timeline-item-title">Frontiers of Information Technology(FIT), Pakistam</h4>
 
             <span>2023</span>
 
-            <p class="timeline-text">Bangladesh</p>
+            <p class="timeline-text">Pakistan</p>
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Joint 10th International Conference on Informatics, Electronics & Vision (ICIEV) and 2021 5th International Conference on Imaging, Vision & Pattern Recognition (icIVPR)</h4>
+            <h4 class="h4 timeline-item-title">International Conference on Open Source Systems and Technologies (ICOSST), Pakistan</h4>
 
-            <span>2021</span>
+            <span>2024</span>
 
-            <p class="timeline-text">Japan</p>
+            <p class="timeline-text">Pakistan</p>
           </li>
 
-          <li class="timeline-item">
+          {/* <li class="timeline-item">
             <h4 class="h4 timeline-item-title">International Conference on Big Data, IoT, and Machine Learning</h4>
 
             <span>2021</span>
 
             <p class="timeline-text">Bangladesh</p>
-          </li>
-          <li class="timeline-item">
+          </li> */}
+          {/* <li class="timeline-item">
             <h4 class="h4 timeline-item-title">International Conference on Science & Contemporary Technologies (ICSCT)</h4>
 
             <span>2021</span>
 
             <p class="timeline-text">Bangladesh</p>
-          </li>
-          <li class="timeline-item">
+          </li> */}
+          {/* <li class="timeline-item">
             <h4 class="h4 timeline-item-title"> IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET)</h4>
 
             <span>2020</span>
 
             <p class="timeline-text">United States of America</p>
-          </li>
+          </li> */}
         </ol>
       </section>
 
@@ -247,18 +255,18 @@ const Resume = () => {
 
         <ol class="timeline-list">
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Chief Executive, AMIR Lab</h4>
+            <h4 class="h4 timeline-item-title">Menotor, The Citizen Foundation</h4>
 
-            <span>2023 - Present</span>
+            <span>2020 - Present</span>
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Mentor, ICT Olympiad Bangladesh</h4>
+            <h4 class="h4 timeline-item-title">Mentor, Computer Science Society, COMSATS Unversity Islamabad</h4>
 
-            <span>2022 - 2023</span>
+            <span>2022 - Present</span>
           </li>
 
-          <li class="timeline-item">
+          {/* <li class="timeline-item">
             <h4 class="h4 timeline-item-title">Member Secretary. Research and Publication Committee, Dept. of CSE, BUBT</h4>
 
             <span>2021 - 2022</span>
@@ -268,7 +276,7 @@ const Resume = () => {
             <h4 class="h4 timeline-item-title">Advisor. Competitive Programming Committee, Dept. of CSE, BUBT</h4>
 
             <span>2021 - 2022</span>
-          </li>
+          </li> */}
         </ol>
         <form action={mmkresume} method="get" target="_blank">
           <button href={mmkresume} class="btn btn-download-resume" style={{ marginTop: "50px" }}>

@@ -1,5 +1,5 @@
 import React from "react";
-import mkabir from "../assets/images/mmk.png";
+import waseem from "../assets/images/Waseem.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faPenNib } from "@fortawesome/free-solid-svg-icons";
 // import { faResearchgate } from "@fortawesome/free-solid-svg-icons";
@@ -22,16 +22,16 @@ const Sidebar = () => {
       <div class="sidebar-info">
         <figure class="avatar-box">
           <img
-            src={mkabir}
+            src={waseem}
             className="rounded-img crop"
-            alt="Md Mohsin Kabir"
+            alt="M.Waseem Sabir"
             width="80"
           />
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Md Mohsin Kabir">
-            Md Mohsin Kabir
+          <h1 class="name" title="Muhammad Waseem Sabir">
+            Muhammad Waseem Sabir
           </h1>
 
           <p class="title">AI Researcher</p>
@@ -61,8 +61,8 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Email</p>
 
-                <a href="mailto:md.mohsin.kabir@mdu.se" class="contact-link">
-                  md.mohsin.kabir@mdu.se
+                <a href="mailto:waseemkathia@gmail.com" class="contact-link">
+                  waseemkathia@gmail.com
                 </a>
               </div>
             </li>
@@ -75,8 +75,8 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Phone</p>
 
-                <a href="tel:+34645272458" class="contact-link">
-                  +46739785052
+                <a href="tel:+923126448488" class="contact-link">
+                  +923126448488
                 </a>
               </div>
             </li>
@@ -89,7 +89,7 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Location</p>
 
-                <address>Västerås, Sweden</address>
+                <address>Lahore, Pakistan</address>
               </div>
             </li>
 
@@ -101,7 +101,7 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Permanent Address</p>
 
-                <address>Dhaka, Bangladesh</address>
+                <address>Sahiwal, Pakistan</address>
               </div>
             </li>
           </ul>
@@ -112,7 +112,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://www.linkedin.com/in/mohsinkabir-ai/"
+                href="https://www.linkedin.com/in/waseemkathia/"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" />
@@ -122,7 +122,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://scholar.google.com/citations?user=4W1u1KMAAAAJ"
+                href="https://scholar.google.com/citations?user=19dfQ8kAAAAJ&hl=en"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-google-scholar" />
@@ -132,7 +132,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://www.researchgate.net/profile/Md-Kabir-152"
+                href="https://www.researchgate.net/profile/"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-researchgate" />
@@ -141,7 +141,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://orcid.org/my-orcid?orcid=0000-0001-9624-5499"
+                href="https://orcid.org/my-orcid?orcid=0009-0002-8031-2743"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-orcid" />
@@ -156,16 +156,16 @@ const Sidebar = () => {
       <div class="sidebar-info">
         <figure class="avatar-box">
           <img
-            src={mkabir}
+            src={waseem}
             className="rounded-img crop"
-            alt="Md Mohsin Kabir"
+            alt="M. Waseem Sabir"
             width="80"
           />
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Md Mohsin Kabir">
-            Md Mohsin Kabir
+          <h1 class="name" title="Muhammad Waseem Sabir">
+            Muhammad Waseem Sabir
           </h1>
 
           <p class="title">AI Researcher</p>
@@ -195,8 +195,8 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Email</p>
 
-                <a href="mailto:md.mohsin.kabir@mdu.se" class="contact-link">
-                  md.mohsin.kabir@mdu.se
+                <a href="mailto:waseemkathia@gmail.com" class="contact-link">
+                  waseemkathia@gmail.com
                 </a>
               </div>
             </li>
@@ -209,8 +209,8 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Phone</p>
 
-                <a href="tel:+46739785052" class="contact-link">
-                  +46739785052
+                <a href="tel:+923126448488" class="contact-link">
+                  +923126448488
                 </a>
               </div>
             </li>
@@ -223,7 +223,7 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Location</p>
 
-                <address>Västerås, Sweden</address>
+                <address>Lahore, Pakistan</address>
               </div>
             </li>
 
@@ -235,7 +235,7 @@ const Sidebar = () => {
               <div class="contact-info">
                 <p class="contact-title">Permanent Address</p>
 
-                <address>Dhaka, Bangladesh</address>
+                <address>Sahiwal, Pakistan</address>
               </div>
             </li>
           </ul>
@@ -246,7 +246,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://www.linkedin.com/in/mohsinkabir-ai/"
+                href="https://www.linkedin.com/in/waseemkathia/"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" />
@@ -256,7 +256,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://scholar.google.com/citations?user=4W1u1KMAAAAJ"
+                href="https://scholar.google.com/citations?user=19dfQ8kAAAAJ&hl=en"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-google-scholar" />
@@ -266,7 +266,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://www.researchgate.net/profile/Md-Kabir-152"
+                href="https://www.researchgate.net/profile/"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-researchgate" />
@@ -275,7 +275,7 @@ const Sidebar = () => {
             <li class="social-item">
               <a
                 target="_blank"
-                href="https://orcid.org/my-orcid?orcid=0000-0001-9624-5499"
+                href="https://orcid.org/my-orcid?orcid=0009-0002-8031-2743"
                 class="social-link"
               >
                 <FontAwesomeIcon icon="fa-brands fa-orcid" />

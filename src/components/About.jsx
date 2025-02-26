@@ -62,10 +62,8 @@ const About = () => {
 
       <section class="about-text">
         <p>
-          I am <b>Md Mohsin Kabir</b>, a dynamic AI researcher specializing in machine learning and deep learning, recognized for my impactful publications. Committed to pushing the boundaries of technology, I continuously seek new horizons in research.
+          I am <b>Muhammad Waseem Sabir</b>, a dedicated AI researcher specializing in machine learning and deep learning, acclaimed for my influential publications. Passionate about advancing technology, I consistently explore new frontiers in research. Professionally, I have excelled in computer vision research after having more than 5 years of experience in Multimedia. I am devoted to driving innovation in AI and computer vision to create a positive societal impact.
         </p>
-
-        <p>Professionally, I've thrived in research and teaching roles, demonstrating expertise in programming and ML-DL tools. Recognized with several awards and an Erasmus Mundus Scholarship, I am dedicated to pioneering advancements in AI and robotics to positively impact society.</p>
       </section>
 
       <section class="service">
@@ -90,9 +88,9 @@ const About = () => {
             </div>
 
             <div class="service-content-box">
-              <h4 class="h4 service-item-title">Robotics</h4>
+              <h4 class="h4 service-item-title">Data Science</h4>
 
-              <p class="service-item-text">Skilled Robotics Engineer recognized for innovative contributions to autonomous system development.</p>
+              <p class="service-item-text">Skilled Data Scientist recognized for innovative contributions to machine learning and predictive analytics.</p>
             </div>
           </li>
 
@@ -116,7 +114,7 @@ const About = () => {
             <div class="service-content-box">
               <h4 class="h4 service-item-title">Traveling</h4>
 
-              <p class="service-item-text">World traveler with a passion for exploration, having journeyed across 12 countries.</p>
+              <p class="service-item-text">An avid traveler with a passion for exploration, having journeyed across Pakistan.</p>
             </div>
           </li>
         </ul>
@@ -134,12 +132,12 @@ const About = () => {
               </figure>
 
               <h4 class="h4 testimonials-item-title" data-testimonials-title>
-              Mälardalens University, Sweden
+              COMSATS University Islamabad, Pakistan
               </h4>
 
               <div class="testimonials-text" data-testimonials-text>
                 <p>
-                  <b>PhD in Computer Science (HeatTrack: Enhanced Reliability, Monitoring and Diagnostics of Complex Cooling Systems through Advanced Thermal Management)</b>
+                  <b>Masters in Computer Science (Vision Transformer based detection and classification of Pulmonary Fibrosis)</b>
                 </p>
               </div>
             </div>
@@ -152,12 +150,12 @@ const About = () => {
               </figure>
 
               <h4 class="h4 testimonials-item-title" data-testimonials-title>
-                University of Girona, Spain
+                COMSATS University Islamabad, Pakistan
               </h4>
 
               <div class="testimonials-text" data-testimonials-text>
                 <p>
-                  <b>EMJ Masters in IFRoS - Field robotics, with focus on land and marine robots</b>
+                  <b>Bachelor in Computer Science with focus on AI and Computer Graphics.</b>
                 </p>
               </div>
             </div>
@@ -197,7 +195,7 @@ const About = () => {
         </ul>
       </section>
 
-      <section class="clients">
+      {/* <section class="clients">
         <h3 class="h3 clients-title">Speeches, Honors, Awards</h3>
 
         <ul class="clients-list has-scrollbar speech text-gray">
@@ -217,7 +215,7 @@ const About = () => {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
     </div>
   );
 };

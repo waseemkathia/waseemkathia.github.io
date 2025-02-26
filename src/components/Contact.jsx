@@ -1,50 +1,159 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
-  const [formsubmitted, setSubmitted] = useState(false);
-  function sentMail() {
-    setSubmitted(true);
-  }
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    // Create a FormData object
+    const formDataObj = new FormData();
+    formDataObj.append("entry.32576204", formData.name);
+    formDataObj.append("entry.925179000", formData.email);
+    formDataObj.append("entry.1794803877", formData.subject);
+    formDataObj.append("entry.1501879573", formData.message);
+
+    //     entry.226204025: Javeed Ishaq
+    // entry.1813335916: zafrishahid3@gmail.com
+    // entry.1326728130: Test by Zafri Shahid
+    // entry.1041349872: this is an otyher
+
+    // <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekPYZ9mb3QDWRh38ja7pcYJRAAVVZ87lfCWzvFtyJ7BXUS0A/viewform?embedded=true" width="640" height="856" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    try {
+      // Submit to Google Form
+
+      await fetch(
+        "https://docs.google.com/forms/d/e/1FAIpQLSeHUj6P-G6eV9SmEsS9ouF0aJtZhrtT45DvcHBsf5ZIChymfQ/formResponse",
+        {
+          method: "POST",
+          mode: "no-cors", // This is important for CORS policy
+          body: formDataObj
+        }
+      );
+
+      // Clear form and show success message
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+      });
+      setFormSubmitted(true);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <div>
       <header>
-        <h2 class="h2 article-title">Contact</h2>
+        <h2 className="h2 article-title">Contact</h2>
       </header>
-      <section class="mapbox" data-mapbox>
+
+      <section className="mapbox" data-mapbox>
         <figure>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.81552291984!2d19.03339887689871!3d47.512983771181325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc03232679ff%3A0x6163e3448f100f36!2sBudapest%2C%20T%C3%B6lgyfa%20u.%2014%2C%201027%20Hungary!5e0!3m2!1sen!2sbd!4v1705732724196!5m2!1sen!2sbd" width="600" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27219.505179071937!2d74.32392324999999!3d31.48463845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904106691c4c7%3A0xfb24ddaf1e7bc6c2!2sModel%20Town%2C%20Lahore%2C%20Punjab!5e0!3m2!1sen!2s!4v1739304865911!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style={{ border: "0" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="location-map"
+          />
         </figure>
       </section>
-      <section class="contact-form">
-        {formsubmitted ? (
-          <div class="alert" role="alert">
-            <h4 class="alert-heading">Well done!</h4>
+
+      {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekPYZ9mb3QDWRh38ja7pcYJRAAVVZ87lfCWzvFtyJ7BXUS0A/viewform?embedded=true" width="640" height="856" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+
+      <section className="contact-form">
+        {formSubmitted && (
+          <div className="alert" role="alert">
+            <h4 className="alert-heading">Thank you!</h4>
             <p>Your message has been sent successfully.</p>
-            <p class="mb-0">Thank you for contacting me.</p>
+            <p className="mb-0">I'll get back to you as soon as possible.</p>
           </div>
-        ) : null}
+        )}
+
         <div>
-          <h3 class="h3 form-title">Send me a message</h3>
+          <h3 className="h3 form-title">Send me a message</h3>
 
-          {/* entry.427038658=Kabir&entry.475499993=test@gmail.com&entry.1442825963=Test&entry.1555716452=Hello */}
+          <form onSubmit={handleSubmit}>
+            <div className="input-wrapper">
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleInputChange}
+                className="form-input"
+                placeholder="Full name"
+                required
+                data-form-input
+              />
 
-          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfaBbktKp96_kiVZtnXh6ZnGNZDBG4wmnOxDKgx3Kv2d0NIFA/formResponse?" target="hidden_iframe" onSubmit={sentMail} onsubmit="submitted=true;">
-            <div class="input-wrapper">
-              <input type="text" name="entry.427038658" id="entry.427038658" class="form-input" placeholder="Full name" required data-form-input />
-
-              <input type="email" name="entry.475499993" id="entry.1705901201" class="form-input" placeholder="Email address" required data-form-input />
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+                className="form-input"
+                placeholder="Email address"
+                required
+                data-form-input
+              />
             </div>
-            <input type="text" name="entry.1442825963" id="entry.1442825963" class="form-input" style={{ marginBottom: "25px" }} placeholder="Subject" required data-form-input />
 
-            <textarea name="entry.1555716452" id="entry.1555716452" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <input
+              type="text"
+              name="subject"
+              value={formData.subject}
+              onChange={handleInputChange}
+              className="form-input"
+              style={{ marginBottom: "25px" }}
+              placeholder="Subject"
+              required
+              data-form-input
+            />
 
-            <button class="form-btn" type="submit" data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleInputChange}
+              className="form-input"
+              placeholder="Your Message"
+              required
+              data-form-input
+            />
+
+            <button
+              className="form-btn"
+              type="submit"
+              data-form-btn
+              disabled={isSubmitting}
+            >
+              <ion-icon name="paper-plane" />
+              <span>{isSubmitting ? "Sending..." : "Send Message"}</span>
             </button>
           </form>
-          <iframe name="hidden_iframe" id="hidden_iframe" style={{ display: "none" }} onload="if(submitted) {}"></iframe>
         </div>
       </section>
     </div>

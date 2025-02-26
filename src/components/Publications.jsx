@@ -13,692 +13,695 @@ const Publications = () => {
   const publications = [
     {
       title:
-        "Musical Genre Classification using Advanced Audio Analysis and Deep Learning Techniques",
-      journal: "IEEE Open Journal of the Computer Society",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://ieeexplore.ieee.org/abstract/document/10605044",
-      // img: j1,
-    },
-    {
-      title:
-        "DenseNet201Plus: Cost-effective transfer-learning architecture for rapid leaf disease identification with attention mechanisms",
-      journal: "Heliyon",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.cell.com/heliyon/fulltext/S2405-8440(24)11656-8",
-      // img: j1,
-    },
-    {
-      title:
-        "Deep Learning and Computer Vision Techniques for Enhanced Quality Control in Manufacturing Processes",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://ieeexplore.ieee.org/abstract/document/10663422",
-      // img: j1,
-    },
-    {
-      title:
-        "A systematic review of single-cell RNA sequencing applications and innovations",
-      journal: "Computational Biology and Chemistry",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2025",
-      link: "https://www.sciencedirect.com/science/article/abs/pii/S1476927125000222",
-      // img: j1,
-    },
-    {
-      title:
-        "Machine learning-driven IoT device for women’s safety: a real-time sexual harassment prevention system",
-      journal: "Multimedia Tools and Applications",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://link.springer.com/article/10.1007/s11042-024-20228-5",
-      // img: j1,
-    },
-    {
-      title:
-        "tRF-BERT: A transformative approach to aspect-based sentiment analysis in the bengali language",
-      journal: "PloS one",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0308050",
-      // img: j1,
-    },
-    {
-      title:
-        "Enhancing road traffic flow in sustainable cities through transformer models: Advancements and challenges",
-      journal: "Sustainable Cities and Society",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.sciencedirect.com/science/article/abs/pii/S2210670724007066",
-      // img: j1,
-    },
-    {
-      title:
-        "Deep learning-based natural language processing in human-agent interaction: Applications, advancements and challenges",
-      journal: "Natural Language Processing Journal",
-      quartiles: "Q4",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.sciencedirect.com/science/article/pii/S2949719124000608",
-      // img: j1,
-    },
-    {
-      title:
-        "A systematic review of UAV and AI integration for targeted disease detection, weed management, and pest control in precision agriculture",
-      journal: "Smart Agricultural Technology",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.sciencedirect.com/science/article/pii/S2772375524002521",
-      // img: j1,
-    },
-    {
-      title:
-        "Development of a cutting-edge ensemble pipeline for rapid and accurate diagnosis of plant leaf diseases",
-      journal: "Artificial Intelligence in Agriculture",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.sciencedirect.com/science/article/pii/S2589721724000394",
-      // img: j1,
-    },
-    {
-      title:
-        "XAI-FruitNet: An explainable deep model for accurate fruit classification",
-      journal: "Journal of Agriculture and Food Research",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.sciencedirect.com/science/article/pii/S2666154324005118",
-      // img: j1,
-    },
-    {
-      title:
-        "Terrain detection and segmentation for autonomous vehicle navigation: A state-of-the-art systematic review",
-      journal: "Information Fusion",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2025",
-      link: "https://www.sciencedirect.com/science/article/pii/S1566253524004226",
-      // img: j1,
-    },
-    {
-      title:
-        "Computer vision algorithms in healthcare: Recent advancements and future challenges",
-      journal: "Computers in Biology and Medicine",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2025",
-      link: "https://www.sciencedirect.com/science/article/abs/pii/S0010482524016160",
-      // img: j1,
-    },
-    {
-      title:
-        "SegX-Net: A novel image segmentation approach for contrail detection using deep learning",
-      journal: "PLOS One",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298160",
-      // img: j1,
-    },
-    {
-      title:
-        "Advancing low‐light object detection with you only look once models: An empirical study and performance evaluation",
-      journal: "Cognitive Computation and Systems",
-      quartiles: "Q3",
-      type: "Journal",
-      year: "2024",
-      link: "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ccs2.12114",
-      // img: j1,
-    },
-    {
-      title: "Toward Trustworthy Metaverse: Advancements and Challenges",
-      journal: "IEEE Access",
+        "FibroVit—Vision transformer-based framework for detection and classification of pulmonary fibrosis from chest CT images",
+      journal: "Frontiers in Medicine",
       quartiles: "Q1",
       type: "Journal",
       year: "2023",
-      link: "https://ieeexplore.ieee.org/document/10288438",
+      link: "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1282200/full",
       // img: j1,
     },
-    {
-      title:
-        "Machine learning and deep learning for user authentication and authorization in cybersecurity: A state-of-the-art review",
-      journal: "Computers & Security",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://doi.org/10.1016/j.cose.2024.103747",
-      // img: j1,
-    },
-    {
-      title: "Arabic Speech Recognition: Advancement and Challenges",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://ieeexplore.ieee.org/abstract/document/10466536/",
-      // img: j2,
-    },
 
-    {
-      title:
-        "Explainable AI approaches in deep learning: Advancements, applications and challenges",
-      journal: "Computers and Electrical Engineering",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://doi.org/10.1016/j.compeleceng.2024.109246",
-      // img: j2,
-    },
 
-    {
-      title:
-        "Tea leaf age quality: age-stratified tea leaf quality classification dataset",
-      journal: "Data in Brief",
-      quartiles: "Q2",
-      type: "Dataset",
-      year: "2024",
-      link: "https://doi.org/10.1016/j.dib.2024.110462",
-      // img: j2,
-    },
 
-    {
-      title:
-        "A systematic review of deep learning data augmentation in medical imaging: Recent advances and future research directions",
-      journal: "Healthcare Analytics",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2024",
-      link: "https://doi.org/10.1016/j.health.2024.100340",
-      // img: j2,
-    },
+    // {
+    //   title:
+    //     "DenseNet201Plus: Cost-effective transfer-learning architecture for rapid leaf disease identification with attention mechanisms",
+    //   journal: "Heliyon",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.cell.com/heliyon/fulltext/S2405-8440(24)11656-8",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Deep Learning and Computer Vision Techniques for Enhanced Quality Control in Manufacturing Processes",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10663422",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "A systematic review of single-cell RNA sequencing applications and innovations",
+    //   journal: "Computational Biology and Chemistry",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2025",
+    //   link: "https://www.sciencedirect.com/science/article/abs/pii/S1476927125000222",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Machine learning-driven IoT device for women’s safety: a real-time sexual harassment prevention system",
+    //   journal: "Multimedia Tools and Applications",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://link.springer.com/article/10.1007/s11042-024-20228-5",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "tRF-BERT: A transformative approach to aspect-based sentiment analysis in the bengali language",
+    //   journal: "PloS one",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0308050",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Enhancing road traffic flow in sustainable cities through transformer models: Advancements and challenges",
+    //   journal: "Sustainable Cities and Society",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.sciencedirect.com/science/article/abs/pii/S2210670724007066",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Deep learning-based natural language processing in human-agent interaction: Applications, advancements and challenges",
+    //   journal: "Natural Language Processing Journal",
+    //   quartiles: "Q4",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S2949719124000608",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "A systematic review of UAV and AI integration for targeted disease detection, weed management, and pest control in precision agriculture",
+    //   journal: "Smart Agricultural Technology",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S2772375524002521",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Development of a cutting-edge ensemble pipeline for rapid and accurate diagnosis of plant leaf diseases",
+    //   journal: "Artificial Intelligence in Agriculture",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S2589721724000394",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "XAI-FruitNet: An explainable deep model for accurate fruit classification",
+    //   journal: "Journal of Agriculture and Food Research",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S2666154324005118",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Terrain detection and segmentation for autonomous vehicle navigation: A state-of-the-art systematic review",
+    //   journal: "Information Fusion",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2025",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S1566253524004226",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Computer vision algorithms in healthcare: Recent advancements and future challenges",
+    //   journal: "Computers in Biology and Medicine",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2025",
+    //   link: "https://www.sciencedirect.com/science/article/abs/pii/S0010482524016160",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "SegX-Net: A novel image segmentation approach for contrail detection using deep learning",
+    //   journal: "PLOS One",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298160",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Advancing low‐light object detection with you only look once models: An empirical study and performance evaluation",
+    //   journal: "Cognitive Computation and Systems",
+    //   quartiles: "Q3",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ccs2.12114",
+    //   // img: j1,
+    // },
+    // {
+    //   title: "Toward Trustworthy Metaverse: Advancements and Challenges",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://ieeexplore.ieee.org/document/10288438",
+    //   // img: j1,
+    // },
+    // {
+    //   title:
+    //     "Machine learning and deep learning for user authentication and authorization in cybersecurity: A state-of-the-art review",
+    //   journal: "Computers & Security",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://doi.org/10.1016/j.cose.2024.103747",
+    //   // img: j1,
+    // },
+    // {
+    //   title: "Arabic Speech Recognition: Advancement and Challenges",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10466536/",
+    //   // img: j2,
+    // },
 
-    {
-      title:
-        "Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review",
-      journal: "Natural Language Processing Journal",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://doi.org/10.1016/j.nlp.2024.100059",
-      // img: j2,
-    },
+    // {
+    //   title:
+    //     "Explainable AI approaches in deep learning: Advancements, applications and challenges",
+    //   journal: "Computers and Electrical Engineering",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://doi.org/10.1016/j.compeleceng.2024.109246",
+    //   // img: j2,
+    // },
 
-    {
-      title:
-        "Advanced Sleep Disorder Detection Using Multi-Layered Ensemble Learning and Advanced Data Balancing Techniques",
-      journal: "Frontiers in Artificial Intelligence",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2025",
-      link: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1506770/full",
-    },
+    // {
+    //   title:
+    //     "Tea leaf age quality: age-stratified tea leaf quality classification dataset",
+    //   journal: "Data in Brief",
+    //   quartiles: "Q2",
+    //   type: "Dataset",
+    //   year: "2024",
+    //   link: "https://doi.org/10.1016/j.dib.2024.110462",
+    //   // img: j2,
+    // },
 
-    {
-      title:
-        "Generative Adversarial Networks (GANs) in Medical Imaging: Advancements, Applications and Challenges",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://ieeexplore.ieee.org/abstract/document/10445413",
-    },
+    // {
+    //   title:
+    //     "A systematic review of deep learning data augmentation in medical imaging: Recent advances and future research directions",
+    //   journal: "Healthcare Analytics",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://doi.org/10.1016/j.health.2024.100340",
+    //   // img: j2,
+    // },
+
+    // {
+    //   title:
+    //     "Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review",
+    //   journal: "Natural Language Processing Journal",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://doi.org/10.1016/j.nlp.2024.100059",
+    //   // img: j2,
+    // },
+
+    // {
+    //   title:
+    //     "Advanced Sleep Disorder Detection Using Multi-Layered Ensemble Learning and Advanced Data Balancing Techniques",
+    //   journal: "Frontiers in Artificial Intelligence",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2025",
+    //   link: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1506770/full",
+    // },
+
+    // {
+    //   title:
+    //     "Generative Adversarial Networks (GANs) in Medical Imaging: Advancements, Applications and Challenges",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10445413",
+    // },
     
-    {
-      title:
-        "Detection of COVID-19, Pneumonia, and Tuberculosis from Radiographs using AI-driven Knowledge Distillation",
-      journal: "Heliyon",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.cell.com/heliyon/pdf/S2405-8440(24)02832-9.pdf",
-      // img: j2,
-    },
+    // {
+    //   title:
+    //     "Detection of COVID-19, Pneumonia, and Tuberculosis from Radiographs using AI-driven Knowledge Distillation",
+    //   journal: "Heliyon",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.cell.com/heliyon/pdf/S2405-8440(24)02832-9.pdf",
+    //   // img: j2,
+    // },
 
-    {
-      title:
-        "A novel deep learning approach for contrail detection using image segmentation",
-      journal: "Plos one",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298160",
-      // img: j2,
-    },
+    // {
+    //   title:
+    //     "A novel deep learning approach for contrail detection using image segmentation",
+    //   journal: "Plos one",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298160",
+    //   // img: j2,
+    // },
 
-    {
-      title:
-        "A multimodal approach to cross-lingual sentiment analysis with ensemble of transformer and LLM",
-      journal: "Scientific Reports",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://www.nature.com/articles/s41598-024-60210-7",
-      // img: j2,
-    },
+    // {
+    //   title:
+    //     "A multimodal approach to cross-lingual sentiment analysis with ensemble of transformer and LLM",
+    //   journal: "Scientific Reports",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://www.nature.com/articles/s41598-024-60210-7",
+    //   // img: j2,
+    // },
 
-    {
-      title:
-        "Deep learning for medical image segmentation: State-of-the-art advancements and challenges",
-      journal: "Informatics in Medicine Unlocked",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2024",
-      link: "https://doi.org/10.1016/j.imu.2024.101504",
-      // img: j2,
-    },
+    // {
+    //   title:
+    //     "Deep learning for medical image segmentation: State-of-the-art advancements and challenges",
+    //   journal: "Informatics in Medicine Unlocked",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://doi.org/10.1016/j.imu.2024.101504",
+    //   // img: j2,
+    // },
 
-    {
-      title:
-        "Palm Leaf Health Management: A Hybrid Approach for Automated Disease Detection and Therapy Enhancement",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2024",
-      link: "https://ieeexplore.ieee.org/abstract/document/10385067/",
-      // img: j3,
-    },
-    {
-      title:
-        "Machine learning enabled IoT system for soil nutrients monitoring and crop recommendation",
-      journal: "Journal of Agriculture and Food Research",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2023",
-      link: "https://www.sciencedirect.com/science/article/pii/S2666154323003873",
-      // img: j3,
-    },
-    {
-      title:
-        "Recurrent ALBERT for recommendation: A hybrid architecture for accurate and lightweight restaurant recommendations",
-      journal: "Cognitive Computation and Systems",
-      type: "Journal",
-      quartiles: "Q3",
-      year: "2023",
-      link: "https://doi.org/10.1049/ccs2.12090",
-      // img: j4,
-    },
-    {
-      title: "Towards Trustworthy Metaverse: Advancements and Challenges",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2023",
-      link: "https://ieeexplore.ieee.org/abstract/document/10288438/",
-      // img: j5,
-    },
-    {
-      title:
-        "Advancing Wildlife Protection: Mask R-CNN for Rail Track Identification and Unwanted Object Detection",
-      journal: "IEEE Access",
-      type: "Journal",
-      quartiles: "Q1",
-      year: "2023",
-      link: "https://ieeexplore.ieee.org/abstract/document/10244015/",
-      // img: j6,
-    },
-    {
-      title:
-        "An Unsupervised Writer Identification Based on Generating Clusterable Embeddings.",
-      journal: "Computer Systems Science & Engineering",
-      quartiles: "Q3",
-      type: "Journal",
-      year: "2023",
-      link: "https://www.researchgate.net/profile/Aklima-Lima/publication/368417097_An_Unsupervised_Writer_Identification_Based_on_Generating_Clusterablejingmbeddings/links/64466ae2017bc07902d758d6/An-Unsupervised-Writer-Identification-Based-on-Generating-Clusterablejiongmbeddings.pdf",
-      // img: j7,
-    },
-    {
-      title:
-        "Cardiac Failure Forecasting Based on Clinical Data Using a Lightweight Machine Learning Metamodel",
-      journal: "Diagnostics",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2023",
-      link: "https://www.mdpi.com/2075-4418/13/15/2540",
-      // img: j8,
-    },
-    {
-      title:
-        "G-BERT: An Efficient Method for Identifying Hate Speech in Bengali Texts on Social Media",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2023",
-      link: "https://ieeexplore.ieee.org/abstract/document/10194932",
-      // img: j8,
-    },
-    {
-      title:
-        "Secure Your Steps: A Class-Based Ensemble Framework for Real-Time Fall Detection using Deep Neural Networks",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2023",
-      link: "https://ieeexplore.ieee.org/abstract/document/10162189",
-      // img: j8,
-    },
-    {
-      title:
-        "Deep Learning-Based IoT System for Remote Monitoring and Early Detection of Health Issues in Real-Time",
-      journal: "Sensors",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2023",
-      link: "https://www.mdpi.com/1424-8220/23/11/5204",
-      // img: j8,
-    },
-    {
-      title:
-        "Self-Writer: Clusterable Embedding Based Self-Supervised Writer Recognition from Unlabeled Data",
-      journal: "Mathematics",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2023",
-      link: "https://www.mdpi.com/2227-7390/10/24/4796",
-      // img: j8,
-    },
-    {
-      title:
-        "A Comprehensive Survey on the Progress, Process, and Challenges of Lung Cancer Detection and Classification",
-      journal: "Journal of Healthcare Engineering",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2022",
-      link: "https://www.hindawi.com/journals/jhe/2022/5905230/",
-      // img: j8,
-    },
-    {
-      title:
-        "How can we manage Offensive Text in Social Media-A Text Classification Approach using LSTM-BOOST",
-      journal: "International Journal of Information Management Data Insights",
-      quartiles: "Q2",
-      type: "Journal",
-      year: "2022",
-      link: "https://www.sciencedirect.com/science/article/pii/S2667096822000386",
-      // img: j8,
-    },
-    {
-      title: "Content-Based Image Retrieval Using AutoEmbedder",
-      journal: "Journal of Advances in Information Technology Vol",
-      quartiles: "Q3",
-      type: "Journal",
-      year: "2022",
-      link: "https://www.semanticscholar.org/paper/Content-Based-Image-Retrieval-Using-AutoEmbedder-Kabir-Ishraq/b6c5670c0fcbbc29bf58b956a297ff166e95574f?p2df",
-      // img: j8,
-    },
-    {
-      title:
-        "A Comprehensive Survey on the Detection, Classification, and Challenges of Neurological Disorders",
-      journal: "Biology",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2022",
-      link: "https://www.mdpi.com/2079-7737/11/3/469",
-      // img: j8,
-    },
-    {
-      title:
-        "A survey of automatic text summarization: Progress, process and challenges",
-      journal: "IEEE Access",
-      quartiles: "Q1",
-      type: "Journal",
-      year: "2021",
-      link: "https://ieeexplore.ieee.org/abstract/document/9623462",
-      // img: icbase,
-    },
-    {
-      title:
-        "A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts",
-      journal: "IEEE Access",
-      quartiles: "Q1",
+    // {
+    //   title:
+    //     "Palm Leaf Health Management: A Hybrid Approach for Automated Disease Detection and Therapy Enhancement",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2024",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10385067/",
+    //   // img: j3,
+    // },
+    // {
+    //   title:
+    //     "Machine learning enabled IoT system for soil nutrients monitoring and crop recommendation",
+    //   journal: "Journal of Agriculture and Food Research",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S2666154323003873",
+    //   // img: j3,
+    // },
+    // {
+    //   title:
+    //     "Recurrent ALBERT for recommendation: A hybrid architecture for accurate and lightweight restaurant recommendations",
+    //   journal: "Cognitive Computation and Systems",
+    //   type: "Journal",
+    //   quartiles: "Q3",
+    //   year: "2023",
+    //   link: "https://doi.org/10.1049/ccs2.12090",
+    //   // img: j4,
+    // },
+    // {
+    //   title: "Towards Trustworthy Metaverse: Advancements and Challenges",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10288438/",
+    //   // img: j5,
+    // },
+    // {
+    //   title:
+    //     "Advancing Wildlife Protection: Mask R-CNN for Rail Track Identification and Unwanted Object Detection",
+    //   journal: "IEEE Access",
+    //   type: "Journal",
+    //   quartiles: "Q1",
+    //   year: "2023",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10244015/",
+    //   // img: j6,
+    // },
+    // {
+    //   title:
+    //     "An Unsupervised Writer Identification Based on Generating Clusterable Embeddings.",
+    //   journal: "Computer Systems Science & Engineering",
+    //   quartiles: "Q3",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://www.researchgate.net/profile/Aklima-Lima/publication/368417097_An_Unsupervised_Writer_Identification_Based_on_Generating_Clusterablejingmbeddings/links/64466ae2017bc07902d758d6/An-Unsupervised-Writer-Identification-Based-on-Generating-Clusterablejiongmbeddings.pdf",
+    //   // img: j7,
+    // },
+    // {
+    //   title:
+    //     "Cardiac Failure Forecasting Based on Clinical Data Using a Lightweight Machine Learning Metamodel",
+    //   journal: "Diagnostics",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://www.mdpi.com/2075-4418/13/15/2540",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "G-BERT: An Efficient Method for Identifying Hate Speech in Bengali Texts on Social Media",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10194932",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "Secure Your Steps: A Class-Based Ensemble Framework for Real-Time Fall Detection using Deep Neural Networks",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10162189",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "Deep Learning-Based IoT System for Remote Monitoring and Early Detection of Health Issues in Real-Time",
+    //   journal: "Sensors",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://www.mdpi.com/1424-8220/23/11/5204",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "Self-Writer: Clusterable Embedding Based Self-Supervised Writer Recognition from Unlabeled Data",
+    //   journal: "Mathematics",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2023",
+    //   link: "https://www.mdpi.com/2227-7390/10/24/4796",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "A Comprehensive Survey on the Progress, Process, and Challenges of Lung Cancer Detection and Classification",
+    //   journal: "Journal of Healthcare Engineering",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2022",
+    //   link: "https://www.hindawi.com/journals/jhe/2022/5905230/",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "How can we manage Offensive Text in Social Media-A Text Classification Approach using LSTM-BOOST",
+    //   journal: "International Journal of Information Management Data Insights",
+    //   quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2022",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S2667096822000386",
+    //   // img: j8,
+    // },
+    // {
+    //   title: "Content-Based Image Retrieval Using AutoEmbedder",
+    //   journal: "Journal of Advances in Information Technology Vol",
+    //   quartiles: "Q3",
+    //   type: "Journal",
+    //   year: "2022",
+    //   link: "https://www.semanticscholar.org/paper/Content-Based-Image-Retrieval-Using-AutoEmbedder-Kabir-Ishraq/b6c5670c0fcbbc29bf58b956a297ff166e95574f?p2df",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "A Comprehensive Survey on the Detection, Classification, and Challenges of Neurological Disorders",
+    //   journal: "Biology",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2022",
+    //   link: "https://www.mdpi.com/2079-7737/11/3/469",
+    //   // img: j8,
+    // },
+    // {
+    //   title:
+    //     "A survey of automatic text summarization: Progress, process and challenges",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2021",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9623462",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
 
-      type: "Journal",
-      year: "2021",
-      link: "https://ieeexplore.ieee.org/abstract/document/9546777",
-      // img: icbase,
-    },
-    {
-      title:
-        "A survey of speaker recognition: Fundamental theories, recognition methods and opportunities",
-      journal: "IEEE Access",
-      quartiles: "Q1",
+    //   type: "Journal",
+    //   year: "2021",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9546777",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "A survey of speaker recognition: Fundamental theories, recognition methods and opportunities",
+    //   journal: "IEEE Access",
+    //   quartiles: "Q1",
 
-      type: "Journal",
-      year: "2021",
-      link: "https://ieeexplore.ieee.org/abstract/document/9442674",
-      // img: icbase,
-    },
-    {
-      title:
-        "BanglaWriting: A multi-purpose offline Bangla handwriting dataset",
-      journal: "Data in Brief",
-      quartiles: "Q2",
+    //   type: "Journal",
+    //   year: "2021",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9442674",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "BanglaWriting: A multi-purpose offline Bangla handwriting dataset",
+    //   journal: "Data in Brief",
+    //   quartiles: "Q2",
 
-      type: "Dataset",
-      year: "2021",
-      link: "https://www.sciencedirect.com/science/article/pii/S2352340920315134",
-      // img: icbase,
-    },
-    {
-      title: "Brain-Computer Interface: Advancement and Challenges",
-      journal: "Sensors",
-      quartiles: "Q1",
+    //   type: "Dataset",
+    //   year: "2021",
+    //   link: "https://www.sciencedirect.com/science/article/pii/S2352340920315134",
+    //   // img: icbase,
+    // },
+    // {
+    //   title: "Brain-Computer Interface: Advancement and Challenges",
+    //   journal: "Sensors",
+    //   quartiles: "Q1",
 
-      type: "Journal",
-      year: "2021",
-      link: "https://www.mdpi.com/1424-8220/21/17/5746",
-      // img: icbase,
-    },
+    //   type: "Journal",
+    //   year: "2021",
+    //   link: "https://www.mdpi.com/1424-8220/21/17/5746",
+    //   // img: icbase,
+    // },
 
-    //{
-    //title:
-    //"Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
-    //journal:
-    //"2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
-    //quartiles: "",
-    //type: "Conference",
-    //year: "2022",
-    //link: "https://ieeexplore.ieee.org/abstract/document/9765063",
-    // img: j8,
-    //},
-    {
-      title:
-        "Assessment of Building Damage on Post-Hurricane Satellite Imagery using improved CNN",
-      journal:
-        "2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
-      quartiles: "",
+    // //{
+    // //title:
+    // //"Plant Disease Identification from Leaf Images using Deep CNN’s EfficientNet",
+    // //journal:
+    // //"2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
+    // //quartiles: "",
+    // //type: "Conference",
+    // //year: "2022",
+    // //link: "https://ieeexplore.ieee.org/abstract/document/9765063",
+    // // img: j8,
+    // //},
+    // {
+    //   title:
+    //     "Assessment of Building Damage on Post-Hurricane Satellite Imagery using improved CNN",
+    //   journal:
+    //     "2022 International Conference on Decision Aid Sciences and Applications (DASA), Thailand (IEEE).",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2022",
-      link: "https://ieeexplore.ieee.org/abstract/document/9765025",
-      // img: icbase,
-    },
+    //   type: "Conference",
+    //   year: "2022",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9765025",
+    //   // img: icbase,
+    // },
 
-    {
-      title:
-        "Alzheimers Disease Classification with a Hybrid CNN-SVM Approach on Enhanced MRI Data",
-      journal:
-        "2024 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
-      quartiles: "",
-      type: "Conference",
-      year: "2024",
-      link: "https://ieeexplore.ieee.org/abstract/document/10824633",
-      // img: icbase,
-    },
+    // {
+    //   title:
+    //     "Alzheimers Disease Classification with a Hybrid CNN-SVM Approach on Enhanced MRI Data",
+    //   journal:
+    //     "2024 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
+    //   quartiles: "",
+    //   type: "Conference",
+    //   year: "2024",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10824633",
+    //   // img: icbase,
+    // },
 
-    {
-      title:
-        "DeepLabv3Att: Integrating Attention Mechanisms in DeepLabv3 for Enhanced Road Segmentation",
-      journal:
-        "2024 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
-      quartiles: "",
-      type: "Conference",
-      year: "2024",
-      link: "https://ieeexplore.ieee.org/abstract/document/10824285",
-      // img: icbase,
-    },
+    // {
+    //   title:
+    //     "DeepLabv3Att: Integrating Attention Mechanisms in DeepLabv3 for Enhanced Road Segmentation",
+    //   journal:
+    //     "2024 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
+    //   quartiles: "",
+    //   type: "Conference",
+    //   year: "2024",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/10824285",
+    //   // img: icbase,
+    // },
 
-    {
-      title:
-        "Heart Disease Prediction and Analysis Using Ensemble Architecture",
-      journal:
-        "2022 International Conference on Decision Aid Sciences and Applications (DASA)",
-      quartiles: "",
+    // {
+    //   title:
+    //     "Heart Disease Prediction and Analysis Using Ensemble Architecture",
+    //   journal:
+    //     "2022 International Conference on Decision Aid Sciences and Applications (DASA)",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2022",
-      link: "https://ieeexplore.ieee.org/document/9765237",
-      // img: icbase,
-    },
-    {
-      title:
-        "Road Sign Detection Using Variants of YOLO and R-CNN: An Analysis from the Perspective of Bangladesh",
-      journal:
-        "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Springer Singapore (Bangladesh).",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2022",
+    //   link: "https://ieeexplore.ieee.org/document/9765237",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "Road Sign Detection Using Variants of YOLO and R-CNN: An Analysis from the Perspective of Bangladesh",
+    //   journal:
+    //     "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Springer Singapore (Bangladesh).",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2022",
-      link: "https://link.springer.com/chapter/10.1007/978-981-16-6636-0_42",
-      // img: icbase,
-    },
-    {
-      title:
-        "An Integrative Machine Learning Strategy for the Prognosis of Heart Disease",
-      journal:
-        "International Conference on Advances in Information Communication Technology & Computing.",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2022",
+    //   link: "https://link.springer.com/chapter/10.1007/978-981-16-6636-0_42",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "An Integrative Machine Learning Strategy for the Prognosis of Heart Disease",
+    //   journal:
+    //     "International Conference on Advances in Information Communication Technology & Computing.",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2024",
-      link: "https://link.springer.com/chapter/10.1007/978-981-97-6103-6_1",
-      // img: icbase,
-    },
-    {
-      title:
-        "Forecasting Closing Price of Stock Market Using LSTM Network: An Analysis from the Perspective of Dhaka Stock Exchange",
-      journal:
-        "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Bangladesh (Springer Nature)",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2024",
+    //   link: "https://link.springer.com/chapter/10.1007/978-981-97-6103-6_1",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "Forecasting Closing Price of Stock Market Using LSTM Network: An Analysis from the Perspective of Dhaka Stock Exchange",
+    //   journal:
+    //     "Proceedings of the International Conference on Big Data, IoT, and Machine Learning: BIM 2021, Bangladesh (Springer Nature)",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2022",
-      link: "https://www.springerprofessional.de/en/forecasting-closing-price-of-stock-market-using-lstm-network-an-/19931888",
-      // img: icbase,
-    },
-    {
-      title:
-        "An Offline Writer-independent Signature Verification System using AutoEmbedder",
-      journal:
-        "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2022",
+    //   link: "https://www.springerprofessional.de/en/forecasting-closing-price-of-stock-market-using-lstm-network-an-/19931888",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "An Offline Writer-independent Signature Verification System using AutoEmbedder",
+    //   journal:
+    //     "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2021",
-      link: "https://ieeexplore.ieee.org/abstract/document/9689780",
-      // img: icbase,
-    },
-    {
-      title:
-        "Cnn-nsvm architecture for skin lesion classification using non-dermoscopic digital image",
-      journal:
-        "2021 Joint 10th International Conference on Informatics, Electronics & Vision (ICIEV) and 2021 5th International Conference on Imaging, Vision & Pattern Recognition (icIVPR), Japan (IEEE).",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2021",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9689780",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "Cnn-nsvm architecture for skin lesion classification using non-dermoscopic digital image",
+    //   journal:
+    //     "2021 Joint 10th International Conference on Informatics, Electronics & Vision (ICIEV) and 2021 5th International Conference on Imaging, Vision & Pattern Recognition (icIVPR), Japan (IEEE).",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2021",
-      link: "https://ieeexplore.ieee.org/abstract/document/9564195",
-      // img: icbase,
-    },
-    {
-      title: "Facial Expression Recognition Using CNN-LSTM Approach",
-      journal:
-        "2021 International Conference on Science & Contemporary Technologies (ICSCT), Bangladesh (IEEE)",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2021",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9564195",
+    //   // img: icbase,
+    // },
+    // {
+    //   title: "Facial Expression Recognition Using CNN-LSTM Approach",
+    //   journal:
+    //     "2021 International Conference on Science & Contemporary Technologies (ICSCT), Bangladesh (IEEE)",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2021",
-      link: "https://ieeexplore.ieee.org/abstract/document/9642571",
-      // img: icbase,
-    },
-    {
-      title: "Human Abnormality Classification Using Combined CNN-RNN Approach",
-      journal:
-        "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2021",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9642571",
+    //   // img: icbase,
+    // },
+    // {
+    //   title: "Human Abnormality Classification Using Combined CNN-RNN Approach",
+    //   journal:
+    //     "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2020",
-      link: "https://ieeexplore.ieee.org/abstract/document/9322814",
-      // img: icbase,
-    },
-    {
-      title: "An Evolution of CNN Object Classifiers on Low-Resolution Images",
-      journal:
-        "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2020",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9322814",
+    //   // img: icbase,
+    // },
+    // {
+    //   title: "An Evolution of CNN Object Classifiers on Low-Resolution Images",
+    //   journal:
+    //     "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2020",
-      link: "https://ieeexplore.ieee.org/abstract/document/9322661",
-      // img: icbase,
-    },
-    {
-      title:
-        "IoT based Health monitoring & automated predictive system to confront COVID-19",
-      journal:
-        "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2020",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9322661",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "IoT based Health monitoring & automated predictive system to confront COVID-19",
+    //   journal:
+    //     "2020 IEEE 17th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET), USA (IEEE)",
+    //   quartiles: "",
 
-      type: "Conference",
-      year: "2020",
-      link: "https://ieeexplore.ieee.org/abstract/document/9322811",
-      // img: icbase,
-    },
-    {
-      title:
-        "A Multi-Plant Disease Diagnosis Method using Convolutional Neural Network",
-      journal:
-        "Computer Vision and Machine Learning in Agriculture, Springer, Singapore",
-      quartiles: "",
+    //   type: "Conference",
+    //   year: "2020",
+    //   link: "https://ieeexplore.ieee.org/abstract/document/9322811",
+    //   // img: icbase,
+    // },
+    // {
+    //   title:
+    //     "A Multi-Plant Disease Diagnosis Method using Convolutional Neural Network",
+    //   journal:
+    //     "Computer Vision and Machine Learning in Agriculture, Springer, Singapore",
+    //   quartiles: "",
 
-      type: "Book Chapter",
-      year: "2021",
-      link: "https://link.springer.com/chapter/10.1007/978-981-33-6424-0_7",
-      // img: bc,
-    },
-    {
-      title:
-        "Domain Adaptation in Medical Imaging: Evaluating the Effectiveness of Transfer Learning",
-      journal:
-        "Data-Driven Clinical Decision-Making Using Deep Learning in Imaging, Springer, Singapore",
-      quartiles: "",
-      type: "Book Chapter",
-      year: "2024",
-      link: "https://link.springer.com/chapter/10.1007/978-981-97-3966-0_1",
-      // img: bc,
-    },
-    {
-      title:
-        "Advancing Breast Cancer Diagnosis: Attention-Enhanced U-Net for Breast Cancer Segmentation",
-      journal:
-        "Data-Driven Clinical Decision-Making Using Deep Learning in Imaging, Springer, Singapore",
-      quartiles: "",
-      type: "Book Chapter",
-      year: "2024",
-      link: "https://link.springer.com/chapter/10.1007/978-981-97-3966-0_11",
-      // img: bc,
-    },
+    //   type: "Book Chapter",
+    //   year: "2021",
+    //   link: "https://link.springer.com/chapter/10.1007/978-981-33-6424-0_7",
+    //   // img: bc,
+    // },
+    // {
+    //   title:
+    //     "Domain Adaptation in Medical Imaging: Evaluating the Effectiveness of Transfer Learning",
+    //   journal:
+    //     "Data-Driven Clinical Decision-Making Using Deep Learning in Imaging, Springer, Singapore",
+    //   quartiles: "",
+    //   type: "Book Chapter",
+    //   year: "2024",
+    //   link: "https://link.springer.com/chapter/10.1007/978-981-97-3966-0_1",
+    //   // img: bc,
+    // },
+    // {
+    //   title:
+    //     "Advancing Breast Cancer Diagnosis: Attention-Enhanced U-Net for Breast Cancer Segmentation",
+    //   journal:
+    //     "Data-Driven Clinical Decision-Making Using Deep Learning in Imaging, Springer, Singapore",
+    //   quartiles: "",
+    //   type: "Book Chapter",
+    //   year: "2024",
+    //   link: "https://link.springer.com/chapter/10.1007/978-981-97-3966-0_11",
+    //   // img: bc,
+    // },
   ];
 
   // Get unique years from publications
