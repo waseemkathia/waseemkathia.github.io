@@ -55,6 +55,11 @@ function App() {
               </button>
             </li>
             <li className="navbar-item">
+              <a href="https://waseemkathia.github.io/projects/" target="_blank" rel="noopener noreferrer" className="navbar-link">
+                Projects
+              </a>
+            </li>
+            <li className="navbar-item">
               <button className={`navbar-link ${activeComponent === "blog" ? "active" : ""}`} onClick={() => handleButtonClick("blog")}>
                 Blogs
               </button>
