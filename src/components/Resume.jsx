@@ -197,7 +197,7 @@ const Resume = () => {
 
         <ol class="timeline-list">
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Frontiers of Information Technology(FIT), Pakistam</h4>
+            <h4 class="h4 timeline-item-title">Frontiers of Information Technology(FIT), Pakistan</h4>
 
             <span>2023</span>
 
