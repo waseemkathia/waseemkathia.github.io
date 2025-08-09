@@ -34,22 +34,14 @@ const Resume = () => {
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Motion Designer</h4>
+            <h4 class="h4 timeline-item-title">Full Stack Developer</h4>
 
-            <span>2021 — 2022</span>
+            <span>2016 — 2022</span>
 
-            <p class="timeline-text">Educative Inc.</p>
+            <p class="timeline-text">ExamBites</p>
           </li>
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Motion Graphic Designer</h4>
-
-            <span>2016 — 2021</span>
-
-            <p class="timeline-text">ExamBites.</p>
-          </li>
-
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Graphics Designer</h4>
+            <h4 class="h4 timeline-item-title">Front End Developer</h4>
 
             <span>2015 — 2016</span>
 
