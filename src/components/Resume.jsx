@@ -28,7 +28,7 @@ const Resume = () => {
           <li class="timeline-item">
             <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
 
-            <span>2022 — 2024</span>
+            <span>2023 — 2024</span>
 
             <p class="timeline-text">Mentored students in Python and machine learning while supporting research through data analysis and model implementation.
             </p>
