@@ -1,5 +1,5 @@
 import React from "react";
-import mmkresume from "../assets/resume.pdf";
+import mmkresume from "../assets/CV_Muhammad_Waseem.pdf";
 
 const Resume = () => {
   return (
@@ -26,11 +26,12 @@ const Resume = () => {
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Career Break</h4>
+            <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
 
             <span>2022 — 2024</span>
 
-            <p class="timeline-text">Took a career break to earn a Master’s in Computer Science, specializing in Data Science.</p>
+            <p class="timeline-text">Mentored students in Python and machine learning while supporting research through data analysis and model implementation.
+            </p>
           </li>
 
           <li class="timeline-item">
