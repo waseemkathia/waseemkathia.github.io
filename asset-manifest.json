@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.88b59520.css",
-    "main.js": "/static/js/main.b86ccf39.js",
-    "static/js/787.8d9ae4bb.chunk.js": "/static/js/787.8d9ae4bb.chunk.js",
+    "main.js": "/static/js/main.48d3ced5.js",
+    "static/js/453.a9d009b8.chunk.js": "/static/js/453.a9d009b8.chunk.js",
     "static/media/b1.png": "/static/media/b1.ef6b7b9bd9901813599e.png",
     "static/media/b2.png": "/static/media/b2.081f8390d981d2d5c16c.png",
     "static/media/amirlab.jpg": "/static/media/amirlab.4fd1ad70dd278ac85261.jpg",
@@ -10,9 +10,9 @@
     "static/media/bubt1.png": "/static/media/bubt1.57204b196164b7a01bdb.png",
     "static/media/Waseem.png": "/static/media/Waseem.ed6a94c57474e8f6bcc8.png",
     "static/media/eot1.jpg": "/static/media/eot1.1f8349445cff549b1bea.jpg",
-    "static/media/resume.pdf": "/static/media/resume.c51c3fabb0a07158a0b0.pdf",
     "static/media/girona1.png": "/static/media/girona1.b3d1d20c814760f08c42.png",
     "static/media/mdu.png": "/static/media/mdu.b3d1d20c814760f08c42.png",
+    "static/media/CV_Muhammad_Waseem.pdf": "/static/media/CV_Muhammad_Waseem.99a56d988f55b245d4ea.pdf",
     "static/media/aml.jpeg": "/static/media/aml.1eaced26f339ca6c7a04.jpeg",
     "static/media/computer.png": "/static/media/computer.3fe516d9f9d50f182010.png",
     "static/media/travel.svg": "/static/media/travel.a5817ac218b676cbd45194b707e27b64.svg",
@@ -21,11 +21,11 @@
     "static/media/robot.svg": "/static/media/robot.f7332bc37d8c5802aca71cd819bd8581.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "main.88b59520.css.map": "/static/css/main.88b59520.css.map",
-    "main.b86ccf39.js.map": "/static/js/main.b86ccf39.js.map",
-    "787.8d9ae4bb.chunk.js.map": "/static/js/787.8d9ae4bb.chunk.js.map"
+    "main.48d3ced5.js.map": "/static/js/main.48d3ced5.js.map",
+    "453.a9d009b8.chunk.js.map": "/static/js/453.a9d009b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88b59520.css",
-    "static/js/main.b86ccf39.js"
+    "static/js/main.48d3ced5.js"
   ]
 }
